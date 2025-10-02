@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int A[10],n=10;
+    cout<<"Enter the numbers";
+    for(int i=0; i<n; i++ )
+    {
+        cin>>A[i];
+    }
+    int key;
+    cout<<"Enter key: ";
+    cin>>key;
+    for(int i=0; i<n;i++)
+    {
+        if(key==A[i])
+        cout<<"Key found";
+        
+    }
+    cout<<"not found";
+
+}
